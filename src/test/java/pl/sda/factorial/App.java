@@ -5,9 +5,9 @@ import java.math.BigDecimal;
 public class App {
 
     public static void main(String[] args) {
-        int n = 67;
-        FactorialAlgorithmType factorialAlgorithmType = FactorialAlgorithmType.RECURSIVE;
+        int n = 100000;
 
+        FactorialAlgorithmType factorialAlgorithmType = FactorialAlgorithmType.ITERATIONAL;
         FactorialFactory factory = new FactorialFactory();
         Factorial factorial = factory.produce(factorialAlgorithmType);
 
