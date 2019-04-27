@@ -1,20 +1,22 @@
 package pl.sda;
 
-import pl.sda.fibonacci.AlgorithmType;
+import pl.sda.fibonacci.FibonacciAlgorithmType;
 import pl.sda.fibonacci.Fibonacci;
 import pl.sda.fibonacci.FibonacciFactory;
 import pl.sda.enumexample.Planets;
 
 import java.math.BigDecimal;
+import java.util.Scanner;
 
 public class App
 {
     public static void main( String[] args )
     {
-        String nString = args[0];
-        String algorithmType = args[1];
+        Scanner scanner = new Scanner(System.in);
+        String nString = scanner.next();
+        String algorithmType = scanner.next();
 
-        AlgorithmType type = AlgorithmType.valueOf(algorithmType);
+        FibonacciAlgorithmType type = FibonacciAlgorithmType.valueOf(algorithmType);
 
         FibonacciFactory factory = new FibonacciFactory();
         Fibonacci fibonacci = factory.produce(type);

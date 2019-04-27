@@ -3,8 +3,6 @@ package pl.sda.fibonacci;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class FibonacciFactoryTest {
 
     FibonacciFactory factory = new FibonacciFactory();
@@ -12,7 +10,7 @@ public class FibonacciFactoryTest {
     @Test
     public void shouldProduceRecursiveFibonacci() {
         //given
-        final AlgorithmType type = AlgorithmType.RECURSIVE;
+        final FibonacciAlgorithmType type = FibonacciAlgorithmType.RECURSIVE;
 
         //when
         Fibonacci result = factory.produce(type);
