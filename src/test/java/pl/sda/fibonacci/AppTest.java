@@ -1,4 +1,4 @@
-package pl.sda;
+package pl.sda.fibonacci;
 
 import static org.junit.Assert.assertTrue;
 

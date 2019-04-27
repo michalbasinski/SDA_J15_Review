@@ -1,4 +1,4 @@
-package pl.sda;
+package pl.sda.fibonacci;
 
 import pl.sda.fibonacci.FibonacciAlgorithmType;
 import pl.sda.fibonacci.Fibonacci;
