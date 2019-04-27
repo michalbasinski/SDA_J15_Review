@@ -1,8 +1,5 @@
 package pl.sda.fibonacci;
 
-import pl.sda.fibonacci.FibonacciAlgorithmType;
-import pl.sda.fibonacci.Fibonacci;
-import pl.sda.fibonacci.FibonacciFactory;
 import pl.sda.enumexample.Planets;
 
 import java.math.BigDecimal;

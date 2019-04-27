@@ -3,8 +3,6 @@ package pl.sda.factorial;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class FactorialFactoryTest {
 
     FactorialFactory factory = new FactorialFactory();
